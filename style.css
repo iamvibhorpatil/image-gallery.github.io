@@ -1,0 +1,27 @@
+*{
+	background-color: lightblue;
+}
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1) ;
+}
+
+h1{
+	font-family:papyrus ;
+	text-align: center;
+	font-size: 3em;
+	width: 350px;
+	border-bottom: 5px solid lightseagreen;
+	border-right: 5px solid lightseagreen ;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
